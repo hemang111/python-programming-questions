@@ -61,6 +61,9 @@ You need to implement the following functions:
 # Solution
 
 ```py3 test.py -r 'python test.py'
+<prefix>
+# Do not use Any loops or Test cases will fail
+</prefix>
 <template>
 def float_truncate(d:float)->int:
     '''
