@@ -2,6 +2,10 @@
 
 This repository contains a curated set of programming challenges to help you sharpen your Python skills. The problems span a variety of topics, including algorithm design, data manipulation, and utility function implementation. Whether you’re a beginner or looking to level up your coding expertise, these exercises provide a mix of fundamental and advanced tasks.
 
+## Note
+
+The given set of md files work with proq eveluation the utils file is modified to check for loops also
+
 ---
 
 ## Summary of Questions
