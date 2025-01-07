@@ -39,7 +39,7 @@ Implement the following functions to process this data:
 
 6. **`unique_categories(products)`**  
    - Extracts all unique categories present in the products list.  
-   - Returns a set of unique category names.
+   - Returns a list of unique category names.
 
 7. **`average_price_by_category(products)`**  
    - Calculates the average price of products for each category.  
@@ -84,7 +84,7 @@ def unique_categories(products):
     """
     <los>...</los>
  <sol>
-    return list({product['category'] for product in products})</sol>
+    return set({product['category'] for product in products})</sol>
 def group_by_category(products):
     """
     Groups products by their category.
