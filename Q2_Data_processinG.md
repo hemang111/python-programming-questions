@@ -49,9 +49,6 @@ Implement the following functions to process this data:
 
 # Solution
 ```python test.py  -r 'python test.py'
-<prefix>
-
-</prefix>
 <template>
 def filter_by_price_range(products, min_price, max_price):
     """
@@ -124,9 +121,6 @@ def average_price_by_category(products):
     
     return {category: totals['total_price'] / totals['count'] for category, totals in category_totals.items()} </sol>
 </template>
-<suffix>
-
-</suffix>
 <suffix_invisible>
 {% include './utils.py.jinja' %}
 </suffix_invisible>

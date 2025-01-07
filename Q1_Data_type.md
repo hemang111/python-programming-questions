@@ -144,9 +144,6 @@ def Dict_keys_find(d:dict):
     return list(d.keys())   
     </sol>        
 </template>
-<suffix>
-
-</suffix>
 <suffix_invisible>
 {% include './utils.py.jinja' %}
 </suffix_invisible>

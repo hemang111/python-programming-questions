@@ -23,9 +23,6 @@ Write a Python program to find the maximum difference between two consecutive el
 - Maximum difference: `4`
 # Solution
 ```python test.py  -r 'python test.py'
-<prefix>
-
-</prefix>
 <template>
 def calculate_differences(numbers):
     """
@@ -48,9 +45,6 @@ max_difference = max(differences)
 # Output the maximum difference
 print(max_difference)
 </suffix>
-<suffix_invisible>
-
-</suffix_invisible>
 ```
 
 # Public Test Cases

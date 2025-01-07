@@ -26,9 +26,6 @@ Output: 9
 
 # Solution
 ```python test.py  -r 'python test.py'
-<prefix>
-
-</prefix>
 <template>
 def trap(height) -> int:
     '''
@@ -67,9 +64,6 @@ def trap(height) -> int:
 
     return water </sol>
 </template>
-<suffix>
-
-</suffix>
 <suffix_invisible>
 {% include './utils.py.jinja' %}
 </suffix_invisible>
