@@ -39,7 +39,7 @@ Implement the following functions to process this data:
 
 6. **`unique_categories(products)`**  
    - Extracts all unique categories present in the products list.  
-   - Returns a list of unique category names.
+   - Returns a set of unique category names.
 
 7. **`average_price_by_category(products)`**  
    - Calculates the average price of products for each category.  
